@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bayon&family=Caprasimo&family=Fira+Sans&family=Fjalla+One&family=GFS+Neohellenic&family=Heebo:wght@900&family=Inter:wght@900&family=Lexend+Giga&family=Merriweather:wght@900&family=Metal+Mania&family=Mukta:wght@800&family=New+Rocker&family=Noto+Sans:wght@300&family=Nunito+Sans:opsz,wght@6..12,600;6..12,1000&family=Open+Sans&family=Oxygen:wght@700&family=Poppins:wght@500&family=Prompt&family=Roboto&family=Roboto+Condensed:wght@300;400&family=Roboto+Mono&family=Tektur:wght@600&family=Tilt+Prism&family=Voces&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bayon&family=Caprasimo&family=Fira+Sans&family=Fjalla+One&family=GFS+Neohellenic&family=Heebo:wght@900&family=Inter:wght@900&family=Lexend+Giga&family=Merriweather:wght@900&family=Metal+Mania&family=Montserrat:wght@700&family=Mukta:wght@800&family=New+Rocker&family=Noto+Sans:wght@300&family=Nunito+Sans:opsz,wght@6..12,600;6..12,1000&family=Open+Sans&family=Oxygen:wght@700&family=Poppins:wght@800&family=Prompt&family=Roboto+Condensed:wght@300;400&family=Roboto+Mono&family=Roboto:wght@500&family=Tektur:wght@600&family=Tilt+Prism&family=Voces&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bayon&family=Caprasimo&family=Carrois+Gothic+SC&family=Denk+One&family=Fira+Sans&family=Fjalla+One&family=GFS+Neohellenic&family=Heebo:wght@900&family=Inter:wght@900&family=Lexend+Giga&family=Merriweather:wght@900&family=Metal+Mania&family=Montserrat:wght@700&family=Mukta:wght@800&family=Nabla&family=New+Rocker&family=Noto+Sans:wght@300&family=Nunito+Sans:opsz,wght@6..12,600;6..12,1000&family=Open+Sans&family=Oxygen:wght@700&family=Poppins:wght@800&family=Prompt&family=Roboto+Condensed:wght@300;400&family=Roboto+Mono&family=Roboto:wght@500&family=Tektur:wght@600&family=Tilt+Prism&family=Voces&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(255, 208, 0);
+    font-size: 45px;
+    position: relative;
+    bottom: 16px;
+    padding-left: 20px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-weight: 800;
+}
+
+.logo t {
+    color: #fff;
+}
+
+.navbar .login {
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: rgb(255, 208, 0);
+    color: black;
+}
+
+.navbar .login:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #777;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    font-family: 'Poppins', sans-serif;
+    transition: 500ms;
+}
+
+.navbar a {
+    position: relative;
+    bottom: 2px;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 13px;
+}
+
+.new {
+    width: 100%;
+    height: 400px;
+    background: rgb(182, 182, 182);
+    background-image: url(https://www.lenovo.com/medias/lenovo-thinkbook-series-page-hero.png?context=bWFzdGVyfHJvb3R8MzE3MDUxfGltYWdlL3BuZ3xoZjcvaDM0LzEzMjY2OTUzNTAyNzUwLnBuZ3w3ZjZkNTlkZWFiOTM0OGUyODk1YmQyMWEwOTRhMTcwOTZjNDNhNzgyMDRlNGVlYTVmMzMzMTUyZjhkYWMyYzI1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 580px;
+    transition: all 500ms ease;
+}
+
+.new .text {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    position: relative;
+    height: 110vh;
+    margin-left: 70px;
+    padding-top: 80px;
+}
+
+.new .text button {
+    border: none;
+    width: 110px;
+    height: 55px;
+    font-size: 20px;
+    background:rgb(255, 208, 0);
+    color: black;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: background 300ms;
+}
+
+.new .text button:hover {
+    background-color: rgb(233, 190, 0);
+}
+
+.learn {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.learn:hover,  .see-btn:hover {
+    text-decoration: underline rgb(255, 208, 0);
+}
+
+.text tx {
+    font-size: 35px;
+    position: relative;
+    top: 1%;
+    color: rgb(255, 208, 0);
+}
+
+.text ttt {
+    position: relative;
+    top: 1%;
+    margin-left: 1%;
+    font-size: 35px;
+    color: #fff;
+}
+
+.center-page {
+    width: 100%;
+    height: 400px;
+    background-color:rgb(202, 202, 202);
+    transition: 500ms;
+    /*background-image: url(https://www.pngall.com/wp-content/uploads/8/Lenovo-Laptop-PNG-Picture.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 400px;*/
+}
+
+img {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 500px;
+    position: relative;
+    left: 100px;
+}
+
+.info-text {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    position: relative;
+    bottom: 80%;
+    font-size: 50px;
+    margin-right: 100px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+ddd {
+    background:linear-gradient(rgb(255, 174, 0),rgb(255, 197, 90));
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.see-btn {
+    width: 100px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: background 300ms;
+}
+
+n {
+    color:rgb(255, 208, 0);
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+.image {
+    width: 600px;
+    height: 390px;
+    overflow: hidden;
+}
+
+.image img {
+    height: 100%;
+    width: 85%;
+}
+
+.dark-mode-btn, #light-btn {
+    color: rgb(70, 70, 70);
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background-color: rgb(172, 171, 171);
+    transition: 300ms;
+}
+
+#light-btn {
+    color: #fff;
+    background-color: rgb(138, 138, 138);
+}
+
+#light-btn:hover {
+    background-color: rgb(124, 124, 124);
+    color: rgb(224, 224, 224);
+}
+
+.dark-mode-btn:hover {
+    background-color: rgb(145, 145, 145);
+    color: rgb(54, 54, 54);
+}
+
+#light-btn {
+    display: none;
+}
+
+.middle-page {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    transition: 300ms;
+}
+
+.contact-block {
+    height: 300px;
+    width: 300px;
+    background: none;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.block-move{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 400px;
+}
+
+ .first-inputs {
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    width: 400px;
+    height: 60px;
+}
+
+textarea {
+    position: relative;
+    left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 401px;
+    outline: none;
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input-mail-text {
+    position: relative;
+    left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    cursor: default;
+}
+
+.input-message-text {
+    margin-bottom: 10px;
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgb(126, 126, 126);
+}
+
+.star-input {
+    display: inline;
+    color: rgb(255, 70, 70);
+}
+
+.submit-input {
+    cursor: pointer;
+    position: relative;
+    left: 11px;
+    width: 400px;
+    height: 43px;
+    border: none;
+    background:linear-gradient(rgb(255, 174, 0),rgb(255, 197, 90));
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    transition: 200ms;
+    outline: none;
+    font-weight: 440;
+}
+
+.submit-input:hover {
+    background-color: rgb(197, 69, 69);
+    box-shadow: 0px 0px 10px rgb(211, 162, 1);
+}
+
+.submit-input:active {
+    background-color: rgb(146, 55, 55);
+    box-shadow: 0px 0px 10px rgb(255, 196, 1);
+}
+
+.contact-text {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-text h1 {
+    font-weight: 600;  
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.mdp-page {
+    background-color: #bfbfbf;
+    height: 400px;
+    width: 100%;
+}
+
+.block-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62vh;
+}
+
+.devices-block {
+    width: 300px;
+    height: 330px;
+    background-color: #e3e3e3;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    background-image: url(https://dlcdnrog.asus.com/rog/media/1512145518987.webp);
+    margin: 15px;
+    transition: 300ms;
+}
+
+.devices-block:hover {
+    width: 600px;
+    box-shadow: 10px 15px 10px #444;
+}
+
+.devices-block:hover .devices-text {
+    font-size: 80px;
+}
+
+.devices-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    color: #fff;
+    font-weight: 1000;
+    text-shadow: 0px 0px 40px #666;
+    transition: 300ms;
+}
+
+.devices-seemore-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.devices-see-button {
+    position: relative;
+    bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    width: 60%;
+    height: 40px;
+    font-size: 22px;
+    font-weight: 400;
+    border: none;
+    background: linear-gradient(rgb(216, 0, 0),rgb(255, 90, 90));
+    color: #fff;
+    border-radius: 6px;
+}
+
+.lenovo-block {
+    background-image: url(https://rukminim1.flixcart.com/image/850/1000/xif0q/computer/b/o/h/-original-imaggd3tqjeyhzxg.jpeg?q=90);
+}
+
+.acer-block {
+    background-image: url(https://images.tokopedia.net/img/cache/700/VqbcmM/2022/3/16/f153709e-59b6-4d5e-ba76-4bf86325188c.jpg);
+}
+
+.hp-block {
+    background-image: url(https://cmv360.s3.ap-southeast-1.amazonaws.com/Razer_Blade_15_Advanced_Review_In_2022_For_Gamers_comparos_in_ce9cb713e7.jpg);
+}
+
+@media (max-width: 628px) {
+    .navbar .login {
+        display: none;
+    }
+    .info-text {
+        font-size: 45px;
+        display: flex;
+        justify-content: left;
+        margin-left: 30px;
+    }
+}
+
+/*.human-text {
+    margin-top: 10px;
+}
+
+.check-input {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 80px;
+    height: 20px;
+}
+*/
